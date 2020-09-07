@@ -14,7 +14,7 @@ document.querySelector(".btn-roll").addEventListener("click", function () {
     //Display the .;unit
     var diceDom = document.querySelector(".dice");
     diceDom.style.display = "block";
-    diceDom.src = dice + ".png";
+    diceDom.src = "images/" + dice + ".png";
     document.querySelector(".dice").style.display = "block";
     if (dice !== 1) {
       roundScore += dice;
